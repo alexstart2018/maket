@@ -147,7 +147,7 @@ img {
     background-color: #1FDB84;
     margin: 10px 0 10px 50px;
 }
-.tarrifs {
+.tariffs {
     margin-top: 200px;
     position: absolute;
     background-color: #F8F9FC;
@@ -167,28 +167,50 @@ img {
     height: 4350px;
 }
 .period-chg ul {
-
-    font-size: 16px;
-    padding: 10px 20px;
-    border-top-left-radius: 5px;
+    /* padding: 10px 20px; */
+    /*border-top-left-radius: 5px;
     border-bottom-right-radius: 5px;
     box-shadow: 0 8px 34px rgba(31, 219, 132, 0.6);
-    width: 30%;
+    width: 30%;*/
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     position: absolute;
     margin-top: 700px;
+    margin-left: 490px;
 }
-.white-btn {
+.white-btn a {
     background-color: #FFFFFF;
     justify-content: center;
+    border: 1px solid #AEFDD9;
+    text-decoration: none;
+    border-right: 0;
+    padding: 15px 30px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #1FDB84;
 }
-.grn-btn {
+.grn-btn a {
     background-color: #F1FFF8;
     justify-content: center;
+    border: 1px solid #AEFDD9;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #1FDB84;
 }
-.tarriff-price ul {
+.tariff-price ul {
     width: 1440px;
     list-style: none;
     display: flex;
@@ -196,16 +218,16 @@ img {
     position: absolute;
     margin-top: 800px;
 }
-.tarriff-price ul li h1 {
+.tariff-price ul li h1 {
     font-style: normal;
     font-weight: bold;
     line-height: 32px;
     font-size: 24px;
     text-align: center;
-    letter-spacing: 0.266667px;
+    letter-spacing: 1px;
     color: #32325C;
 }
-.tarriff-price ul li h2 {
+.tariff-price ul li h2 {
     font-style: normal;
     font-weight: normal;
     line-height: 64px;
@@ -213,52 +235,52 @@ img {
     text-align: center;
     color: #1FDB84;
 }
-.tarriff-price ul li h3 {
+.tariff-price ul li h3 {
     font-style: normal;
     font-weight: normal;
     line-height: 32px;
     font-size: 16px;
     text-align: center;
-    letter-spacing: 0.177778px;
+    letter-spacing: 1px;
     color: #5B6C94;
 }
-.tarriff-price ul li h4 {
+.tariff-price ul li h4 {
     font-style: normal;
     font-weight: normal;
     line-height: 32px;
     font-size: 16px;
     text-align: center;
-    letter-spacing: 0.177778px;
+    letter-spacing: 1px;
     color: #5B6C94;
 }
-.tarriff-price ul li h5 {
+.tariff-price ul li h5 {
     font-style: normal;
     font-weight: normal;
     line-height: 32px;
     font-size: 16px;
     text-align: center;
-    letter-spacing: 0.177778px;
+    letter-spacing: 1px;
     color: #5B6C94;
 }
-.tarriff-price ul li h6 {
+.tariff-price ul li h6 {
     font-style: normal;
     font-weight: normal;
     line-height: 32px;
     font-size: 16px;
     text-align: center;
-    letter-spacing: 0.177778px;
+    letter-spacing: 1px;
     color: #5B6C94;
 }
-.tarriff-price ul li p {
+.tariff-price ul li p {
     font-style: normal;
     font-weight: normal;
     line-height: 32px;
     font-size: 16px;
     text-align: center;
-    letter-spacing: 0.177778px;
+    letter-spacing: 1px;
     color: #5B6C94;
 }
-.tarriff-price ul li a {
+.tariff-price ul li a {
     background-color: #1FDB84;
     padding: 15px 30px;
     border-top-left-radius: 10px;
@@ -275,9 +297,9 @@ img {
     position: absolute;
     margin-top: 100px;
 }
-.tarriff-price .tarif-item-p {
+.tariff-price .tariff-item-p {
     background: #FFFFFF;
-    box-shadow: 0px 7px 24px rgba(83, 83, 83, 0.1);
+    box-shadow: 0 7px 24px rgba(83, 83, 83, 0.1);
     Width: 378px;
     Height: 665px;
     border-top: 4px Solid #0A8AFF;
